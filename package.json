@@ -1,0 +1,31 @@
+{
+  "name": "remap-js",
+  "version": "0.1.0",
+  "description": "Give your objects a different shape",
+  "main": "dist/index.js",
+  "author": "Alan Thai (http://github.com/alanthai)",
+  "license": "MIT",
+  "keywords": [
+    "remap",
+    "reshape",
+    "transform",
+    "object"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/alanthai/remap-js.git"
+  },
+  "scripts": {
+    "build": "tsc --outDir dist",
+    "pretest": "tsc --outDir test",
+    "test": "mocha test/*.spec.js test/**/*.spec.js",
+    "posttest": "rimraf test"
+  },
+  "devDependencies": {
+    "@types/mocha": "^2.2.40",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "rimraf": "^2.6.1",
+    "typescript": "^2.2.2"
+  }
+}

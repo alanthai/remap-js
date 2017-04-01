@@ -1,0 +1,6 @@
+node_modules
+
+# ignore spec files in dist folder
+dist/**/*.spec.d.ts
+dist/**/*.spec.js
+dist/**/*.spec.js.map
